@@ -1,18 +1,19 @@
 ﻿using System;
+using System.Linq;
 
-namespace Program
+namespace baekjoon.srcs
 {
     class _2557
     {
-        static void Main(string[] argv) => new Solution();
-    }
-    class Solution
-    {
-        public Solution()
+        //static void Main(string[] argv) => new Solution();
+
+        class Solution
         {
-            Console.Write("Hello World!");
+            public Solution()
+            {
+                Console.WriteLine("Hello World!");
+            }
         }
-
-
     }
+
 }
